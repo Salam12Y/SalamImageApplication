@@ -6,4 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <SearchView
+        android:id="@+id/SrchVSearch"
+        android:layout_width="327dp"
+        android:layout_height="72dp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <SearchView
+        android:layout_width="79dp"
+        android:layout_height="65dp"
+        tools:layout_editor_absoluteX="331dp"
+        tools:layout_editor_absoluteY="665dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
