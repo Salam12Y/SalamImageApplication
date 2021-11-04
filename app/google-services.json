@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1026050772511",
+    "project_id": "salamimageapplication",
+    "storage_bucket": "salamimageapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026050772511:android:e320aac23d6e5d0e51cf2a",
+        "android_client_info": {
+          "package_name": "yassen.salam.salamimageapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026050772511-ah3vf4vk4s12qdr0kg3h6fu1kcgracvn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj8pyLcxp3u55gJSZI2sHOtzdtLDG5Gtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026050772511-ah3vf4vk4s12qdr0kg3h6fu1kcgracvn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
