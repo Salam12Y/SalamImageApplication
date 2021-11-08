@@ -15,18 +15,26 @@
 
     <ImageButton
         android:id="@+id/imgBtn6"
-        android:layout_width="113dp"
-        android:layout_height="108dp"
+        android:layout_width="103dp"
+        android:layout_height="100dp"
         app:srcCompat="@mipmap/image_launcher3_foreground"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="656dp" />
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="655dp" />
 
     <ImageButton
         android:id="@+id/imageBtn"
-        android:layout_width="121dp"
-        android:layout_height="109dp"
+        android:layout_width="114dp"
+        android:layout_height="97dp"
         app:srcCompat="@mipmap/image_launcher60_foreground"
-        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteX="308dp"
         tools:layout_editor_absoluteY="655dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="106dp"
+        android:layout_height="93dp"
+        app:srcCompat="@mipmap/image_launcher77_foreground"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="657dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
