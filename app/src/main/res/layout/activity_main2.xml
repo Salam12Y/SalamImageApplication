@@ -10,8 +10,8 @@
         android:id="@+id/SrchVSearch"
         android:layout_width="397dp"
         android:layout_height="99dp"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="1dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="7dp" />
 
     <ImageButton
         android:id="@+id/imgBtn6"
@@ -30,7 +30,7 @@
         tools:layout_editor_absoluteY="655dp" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/imgbtn"
         android:layout_width="106dp"
         android:layout_height="93dp"
         app:srcCompat="@mipmap/image_launcher77_foreground"
