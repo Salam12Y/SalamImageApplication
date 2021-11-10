@@ -19,22 +19,22 @@
         android:layout_height="100dp"
         app:srcCompat="@mipmap/image_launcher3_foreground"
         tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="655dp" />
+        tools:layout_editor_absoluteY="610dp" />
 
     <ImageButton
         android:id="@+id/imageBtn"
         android:layout_width="114dp"
         android:layout_height="97dp"
         app:srcCompat="@mipmap/image_launcher60_foreground"
-        tools:layout_editor_absoluteX="308dp"
-        tools:layout_editor_absoluteY="655dp" />
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="610dp" />
 
     <ImageButton
         android:id="@+id/imgbtn"
         android:layout_width="106dp"
         android:layout_height="93dp"
         app:srcCompat="@mipmap/image_launcher77_foreground"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="657dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="610dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addAlbumActivity">
+
+  <Button
+      android:id="@+id/btnSave"
+      android:layout_width="96dp"
+      android:layout_height="52dp"
+      android:text="Save"
+      tools:layout_editor_absoluteX="314dp"
+      tools:layout_editor_absoluteY="272dp" />
+
+  <TextView
+      android:id="@+id/tvAlbum"
+      android:layout_width="99dp"
+      android:layout_height="44dp"
+      android:scrollbarDefaultDelayBeforeFade="400"
+      android:text="New Album"
+      tools:layout_editor_absoluteX="156dp"
+      tools:layout_editor_absoluteY="134dp" />
+
+  <ImageButton
+      android:id="@+id/imgBtn"
+      android:layout_width="50dp"
+      android:layout_height="45dp"
+      app:srcCompat="@mipmap/image_launcher77666_foreground"
+      tools:layout_editor_absoluteX="16dp"
+      tools:layout_editor_absoluteY="16dp" />
+
+  <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="409dp"
+      android:layout_height="wrap_content"
+      tools:layout_editor_absoluteX="1dp"
+      tools:layout_editor_absoluteY="200dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Album Name" />
+  </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
