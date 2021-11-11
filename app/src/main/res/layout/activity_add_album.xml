@@ -26,8 +26,8 @@
 
   <ImageButton
       android:id="@+id/imgBtn"
-      android:layout_width="50dp"
-      android:layout_height="45dp"
+      android:layout_width="45dp"
+      android:layout_height="36dp"
       app:srcCompat="@mipmap/image_launcher77666_foreground"
       tools:layout_editor_absoluteX="16dp"
       tools:layout_editor_absoluteY="16dp" />
