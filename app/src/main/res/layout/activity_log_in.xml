@@ -24,7 +24,7 @@
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="157dp">
+        tools:layout_editor_absoluteY="151dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etpassword"
@@ -39,14 +39,14 @@
         android:layout_height="66dp"
         android:text="LogIn"
         tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="253dp" />
+        tools:layout_editor_absoluteY="225dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Register"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="377dp" />
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="312dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

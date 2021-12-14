@@ -8,33 +8,52 @@
 
     <SearchView
         android:id="@+id/SrchVSearch"
-        android:layout_width="397dp"
-        android:layout_height="99dp"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="495dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imgBtn6"
-        android:layout_width="103dp"
+        android:layout_width="0dp"
         android:layout_height="100dp"
-        app:srcCompat="@mipmap/image_launcher3_foreground"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="610dp" />
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageBtn"
+        app:layout_constraintStart_toEndOf="@+id/imgbtn"
+        app:srcCompat="@mipmap/image_launcher3_foreground" />
 
     <ImageButton
         android:id="@+id/imageBtn"
-        android:layout_width="114dp"
-        android:layout_height="97dp"
-        app:srcCompat="@mipmap/image_launcher60_foreground"
-        tools:layout_editor_absoluteX="292dp"
-        tools:layout_editor_absoluteY="610dp" />
+        android:layout_width="104dp"
+        android:layout_height="93dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgBtn6"
+        app:layout_constraintTop_toBottomOf="@+id/SrchVSearch"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@mipmap/image_launcher60_foreground" />
 
     <ImageButton
         android:id="@+id/imgbtn"
-        android:layout_width="106dp"
-        android:layout_height="93dp"
-        app:srcCompat="@mipmap/image_launcher77_foreground"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="610dp" />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgBtn6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SrchVSearch"
+        app:srcCompat="@mipmap/image_launcher77_foreground" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

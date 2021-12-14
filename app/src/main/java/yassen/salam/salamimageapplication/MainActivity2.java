@@ -1,10 +1,10 @@
 package yassen.salam.salamimageapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.SearchView;
 
 import android.os.Bundle;
 import android.widget.ImageButton;
+import android.widget.SearchView;
 
 public class MainActivity2 extends AppCompatActivity {
     private SearchView SrchVSearch;
