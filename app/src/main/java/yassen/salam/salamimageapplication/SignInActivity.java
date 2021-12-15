@@ -30,6 +30,9 @@ public class SignInActivity extends AppCompatActivity {
         btnSave = findViewById(R.id.btnSave);
         etFullName = findViewById(R.id.etFullName);
 
+              /**
+                *
+                */
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -41,6 +44,7 @@ public class SignInActivity extends AppCompatActivity {
                     boolean isOk = true;
                     String email = etEmail.getText().toString();
                     String password = etPassword.getText().toString();
+                    // فحص هل طول الايميل يساوي 8
                     if (email.length() == 8) {
                         etEmail.setError("enter email");
                     }
@@ -48,12 +52,13 @@ public class SignInActivity extends AppCompatActivity {
                     {
                         etPassword.setError("password at least 8 letters");
                     }
+
                     if (isOk)
                     {
                         signingin(email,password);
                     }
                 }
-                
+
             private void signingin(String email, String passw) {
                 FirebaseAuth auth = FirebaseAuth.getInstance();
                 auth.signInWithEmailAndPassword(email, passw).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
@@ -77,21 +82,25 @@ public class SignInActivity extends AppCompatActivity {
             String rePassword = etRepassword.getText().toString();
             String phone = etPhone.getText().toString();
             String fullName = etFullName.getText().toString();
+
             if(email.length()<5 || email.indexOf('@')<=0)
             {
                 etEmail.setError("wrong email syntax");
                 isOk=false;
             }
+            // فحص طول كلمة السر
             if(password.length()<8)
             {
                 etPassword.setError("at least 8");
                 isOk=false;
             }
+            //  فحص اذا  كلمة سر (repassword) تساوي كلمة السر (password)
             if(password.equals(rePassword)==false)
             {
                 etPassword.setError("not equal passwords");
                 isOk=false;
             }
+            // فحص اذا طول الاسم الكامل يساوي 8
             if(fullName.length()==0)
             {
                 etFullName.setError("must to enter full name");

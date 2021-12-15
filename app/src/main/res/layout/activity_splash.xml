@@ -8,9 +8,11 @@
 
     <ImageView
         android:id="@+id/imgv2"
-        android:layout_width="412dp"
-        android:layout_height="734dp"
-        app:srcCompat="@mipmap/salamimage_launcher_foreground"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/salamimage_launcher_foreground" />
 </androidx.constraintlayout.widget.ConstraintLayout>
